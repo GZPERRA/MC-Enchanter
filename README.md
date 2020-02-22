@@ -10,16 +10,13 @@ But if you combined Silk Touch I and Unbreaking III first, and then you applied 
 This motivated me to write this program that by giving it the enchanted books you have, and the desired enchanted item, it gives you the cheapest (possible) books combination.
 
 ## Features
-### Available
-* Calculate the exact total experience cost of any enchantment.
-* Find the minimum experience cost for a specific enchantements combination using enchanted books only.
-
-### Upcoming
-* Find the minimum experience cost for a specific enchantements combination using enchanted books and items.
+- [x] Calculate the exact total experience cost of any enchantment.
+- [x] Find the minimum experience cost for a specific enchantements combination using enchanted books only.
+- [ ] Find the minimum experience cost for a specific enchantements combination using enchanted books and items.
 
 ## Example
 Let's take the exemple used in [Motivation](#Motivation)
-```
+```python
 axe = EnchantableItem([], "axe")
 
 unbreaking3 = EnchantedBook([ Enchantment('Unbreaking', 3) ])
