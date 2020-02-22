@@ -15,7 +15,7 @@ This motivated me to write this program that by giving it the enchanted books yo
 - [ ] Find the minimum experience cost for a specific enchantements combination using enchanted books and items.
 
 ## Example
-Let's take the exemple used in [Motivation](#Motivation)
+Let's take the example used in [Motivation](#Motivation)
 ```python
 axe = EnchantableItem([], "axe")
 
