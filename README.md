@@ -14,9 +14,14 @@ This motivated me to write this program that by giving it the enchanted books yo
 - [x] Find the minimum experience cost for a specific enchantements combination using enchanted books only.
 - [ ] Find the minimum experience cost for a specific enchantements combination using enchanted books and items.
 
+## Instalation
+
+
 ## Example
 Let's take the example used in [Motivation](#Motivation)
 ```python
+from mc-enchanter import *
+
 axe = EnchantableItem([], "axe")
 
 unbreaking3 = EnchantedBook([ Enchantment('Unbreaking', 3) ])
