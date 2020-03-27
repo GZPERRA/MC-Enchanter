@@ -19,6 +19,9 @@ class EnchantableItem:
         self._isBook = False
 
         for enchantment in enchantments:
+            if type(enchantment) != Enchantment:
+                raise Exception("{}({}) initialization has failed: {} is not an Enchantment: ".format(self.__class__.__name__, name, type(enchantment)))
+                
             if enchantment.name() in self.__enchantments:
                 raise Exception(self.__class__.__name__+"("+name+") initialization has failed: Duplicated enchantement: " + str(enchantment))
             self.__enchantments[enchantment.name()] = enchantment.copy()
