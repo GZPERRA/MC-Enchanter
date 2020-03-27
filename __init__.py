@@ -16,7 +16,7 @@ from .enchantable import (
     EnchantedBook,
 )
 
-from .MEM import (
+from .mc_enchanter import (
     BasicBooksEnchantingXPCost,
     BestBooksEnchantmentCombination,
     AnvilSimulator,
