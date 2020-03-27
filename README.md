@@ -5,7 +5,7 @@
 It's based on the Official Minecraft Wiki page: [*Anvil/Mechanics*](https://minecraft.gamepedia.com/Anvil/Mechanics).
 
 ## Motivation
-Let's say that you wanted a powerfull axe with all of the following enchantements: Sharpness V, Efficiency V, Silk Touch I and Unbreaking III. Suppose that you got all corresponding enchanted books and you applied them one after the other to the axe using an anvil. You'll end up with a total cost of **28 EXP**.
+Let's say that you wanted a powerfull axe with all of the following enchantements: Sharpness V, Efficiency V, Silk Touch and Unbreaking III. Suppose that you got all corresponding enchanted books and you applied them one after the other to the axe using an anvil. You'll end up with a total cost of **28 EXP**.
 But if you combined Silk Touch I and Unbreaking III first, and then you applied the rest of books then it will cost you **25 EXP**. 
 This motivated me to write this program that by giving it the enchanted books you have, and the desired enchanted item, it gives you the cheapest (possible) books combination.
 
