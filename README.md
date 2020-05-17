@@ -13,6 +13,7 @@ This motivated me to write this program that by giving it the enchanted books yo
 - [x] Calculate the exact total experience cost of any enchantment.
 - [x] Find the minimum experience cost for a specific enchantements combination using enchanted books only.
 - [ ] Find the minimum experience cost for a specific enchantements combination using enchanted books and items.
+- [ ] Support items durability.
 
 ## Instalation
 
