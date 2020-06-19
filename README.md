@@ -1,7 +1,7 @@
-# Minecraft-Enchantments-Master
+# MC-Enchanter
 
 ## Description
-**Minecraft-Enchantments-Master** is a simple python program that simulates the enchantment mechanics of the anvil in the popular game: [Minecraft](https://fr.wikipedia.org/wiki/Minecraft).
+**MC-Enchanter** is a simple python program that simulates the enchantment mechanics of the anvil in the popular game: [Minecraft](https://fr.wikipedia.org/wiki/Minecraft).
 It's based on the Official Minecraft Wiki page: [*Anvil/Mechanics*](https://minecraft.gamepedia.com/Anvil/Mechanics).
 
 ## Motivation
