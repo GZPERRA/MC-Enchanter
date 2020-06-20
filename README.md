@@ -34,7 +34,7 @@ axe = EnchantableItem([], "axe")
 unbreaking3 = EnchantedBook([ Enchantment('Unbreaking', 3) ])
 sharpness5 = EnchantedBook([ Enchantment('Sharpness', 5) ])
 efficiency5 = EnchantedBook([ Enchantment('Efficiency', 5) ])
-silk_touch = EnchantedBook([ Enchantment('Silk Touch', 1) ])
+silk_touch = EnchantedBook([ Enchantment('Silk Touch') ])
 
 enchantedBooks = [unbreaking3, sharpness5, efficiency5, silk_touch]
 combination = BestBooksEnchantmentCombination(axe, enchantedBooks)
